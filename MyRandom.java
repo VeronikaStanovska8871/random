@@ -50,7 +50,7 @@ public class MyRandom {
             if (resault==systemresault)
                 count++;
             i++;
-        }while (i<=10);
+        }while (i<=9);
         int correct= (count*100)/10;
         System.out.println(count+"/10 correct. "+correct+"%");
 
